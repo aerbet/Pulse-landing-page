@@ -1,0 +1,98 @@
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 700px;
+    }
+}
+@media (max-width: 425px) {
+
+    .header {
+        flex-direction: column;
+        &__logo {
+            margin-top: 5px;
+            margin-right: 25px;
+            img {
+                width: 115%;
+            }
+        }
+        &__official {
+            margin-top: 50px;
+            font-size: 20px;
+        }
+        &__contacts {
+            margin-top: 25px;
+       
+        } 
+        &__phone {
+            margin-right: 25px;
+        }
+        .button {
+            width: 200px;
+            height: 40px;
+            margin-top: 10px;
+        }
+    }
+    .promo {
+        
+        &__header {
+            margin-right: 30px;
+            font-size: 30px;
+        }
+        &__subheader {
+            margin-right: 35px;
+            font-size: 17px;
+        }
+        &__icons {
+            width: 340px;
+            margin-right: 45px;
+        }
+        .button {
+            &_main {
+            width: 240px;
+            margin-right: 90px;
+            font-size: 15px;
+        }
+        }
+        &__link {
+            font-size: 15px;
+            margin-right: 112px;
+        }
+        
+    }
+    .reasons {
+         
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            width: 213px;
+            img {
+                margin-top: 30px;
+            }
+        }
+    }
+    .consulting {
+        &__header {
+            font-size: 28px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 16px;
+            text-align: center;
+        }
+        &__name {
+            margin-left: 60px;
+        }
+        &__desc {
+            text-align: center;
+        }
+        .button {
+            &_sub {
+                width: 280px;
+                margin-left: 70px;
+            }
+        }
+        
+    }
+}
