@@ -1,10 +1,23 @@
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
     .container {
         max-width: 700px;
     }
 }
+
 @media (max-width: 425px) {
+
+    .carousel {
+        &__inner {
+            width: 425px;
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 115px;
+            font-size: 11px;
+        }
+    }
 
     .header {
         flex-direction: column;
@@ -197,3 +210,4 @@
     }
     
 }
+ */
