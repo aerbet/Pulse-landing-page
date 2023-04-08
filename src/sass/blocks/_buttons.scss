@@ -9,6 +9,9 @@
     font-weight: 500;
     text-transform: uppercase;
     margin-top: 5px;
+    &:hover {
+        background-color: rgb(255, 136, 0);
+    }
     &_main {
         margin-top: 67px;
         width: 300px;
