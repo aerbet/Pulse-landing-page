@@ -1,0 +1,32 @@
+.review {
+    padding-bottom: 73px;
+    &__official {
+        color: #0d0d0d;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__descr {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__title {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__subtitle {
+        margin-top: 10px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &__mini {
+        margin-top: 14px;
+        font-size: 13px;
+        color: gray;
+    }
+}
